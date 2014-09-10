@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Magnetto Blog feature.
+ */
+
+include_once 'magnetto_blog.features.inc';

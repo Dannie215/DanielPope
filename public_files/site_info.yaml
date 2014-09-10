@@ -1,0 +1,66 @@
+build_hook_file.path: /var/www/danniephantom/code/sites/default/fetcher.make.php
+'client.authentication class': \FetcherServices\Authentication\OpenSshKeys
+code_fetcher.class: Fetcher\CodeFetcher\Download
+code_fetcher.config: {  }
+code_fetcher.vcs_mapping:
+  git: Fetcher\CodeFetcher\VCS\Git
+configuration.ephemeral:
+  - initialized
+  - simulate
+  - verbose
+  - environment.remote
+  - data.admin.user.password
+configurators:
+  - \Fetcher\Configurator\DrushPrompts
+'database class': \Fetcher\DB\Mysql
+database.admin.port: null
+database.admin.user.name: null
+database.admin.user.password: null
+database.database: danniephantom
+database.driver: mysql
+database.hostname: localhost
+database.port: 3306
+database.user.hostname: localhost
+database.user.name: danniephantom
+database.user.password: CUnpJKlF45XbB1vLsjgz
+database_synchronizer.class: Fetcher\DBSynchronizer\DrushSqlSync
+drush_alias.path: /home/vagrant/.drush/danniephantom.aliases.drushrc.php
+environment.local: local
+environments: {  }
+'fetcher client class': \Fetcher\Utility\HTTPClient
+'file synchronizer class': Fetcher\FileSynchronizer\RsyncFileSync
+hostname: danniephantom.local
+info_fetcher.class: FetcherServices\InfoFetcher\FetcherServices
+info_fetcher.config:
+  host: 'https://extranet.zivtech.com'
+'log function': drush_log
+log.function: drush_log
+mysql.binary: mysql
+name: danniephantom
+name.global: danniephantom
+profile: bear
+rsync-binary: rsync
+'server class': \Fetcher\Server\Apache2
+server.disable_site_command: 'a2dissite danniephantom'
+server.enable_site_command: 'a2ensite danniephantom'
+server.host_conf_path: /etc/apache2/sites-available/danniephantom
+server.port: 80
+server.restart_command: 'sudo service apache2 reload'
+server.user: www-data
+server.vhost_available_folder: /etc/apache2/sites-available
+server.vhost_enabled_folder: /etc/apache2/sites-enabled
+server.webroot: /var/www
+site: default
+site.code_directory: /var/www/danniephantom/code
+site.directory: /var/www/danniephantom/code/sites/default
+'site.info path': /var/www/danniephantom/site_info.yaml
+site.webroot: /var/www/danniephantom/webroot
+site.working_directory: /var/www/danniephantom
+symlinks:
+  /var/www/danniephantom/public_files: /var/www/danniephantom/code/sites/default/files
+  /var/www/danniephantom/code: /var/www/danniephantom/webroot
+'system class': \Fetcher\System\Posix
+'system hostname': local
+task_loader.class: \Fetcher\Task\TaskLoader
+version: '7'
+webroot_subdirectory: webroot

@@ -1,0 +1,90 @@
+name = Magnetto
+description = Magnetto theme, developed by <a href="http://tabvn.com/">Tabvn</a>.
+core = 7.x
+
+stylesheets[all][] = layout/style.css
+stylesheets[all][] = layout/plugins/entypo/fonts.css
+stylesheets[all][] = layout/plugins/customscrollbar/jquery.mCustomScrollbar.css
+stylesheets[all][] = layout/plugins/cssanimation/animate.css
+stylesheets[all][] = layout/plugins/cssanimation/delays.css
+stylesheets[all][] = layout/plugins/flexslider/flexslider.css
+stylesheets[all][] = layout/plugins/flexslider/animation_delays.css
+stylesheets[all][] = layout/plugins/mediaelement/mediaelementplayer.css
+stylesheets[all][] = layout/plugins/prettyphoto/css/prettyPhoto.css
+
+scripts[] = layout/plugins/customscrollbar/jquery.mCustomScrollbar.min.js
+;scripts[] = layout/plugins/flexslider/jquery.flexslider-min.js
+scripts[] = layout/plugins/mediaelement/mediaelement-and-player.min.js
+scripts[] = layout/plugins/sort/jquery.sort.min.js
+scripts[] = layout/plugins/scrollto/jquery.scroll.to.min.js
+scripts[] = layout/plugins/prettyphoto/jquery.prettyPhoto.js
+scripts[] = layout/plugins/tools/jquery.tools.min.js
+scripts[] = layout/plugins/loader/jquery.queryloader2.min.js
+scripts[] = layout/js/plugins.js
+scripts[] = layout/js/main.js
+scripts[] = layout/js/magnetto.js
+
+; System stylesheets we'd like to avoid:
+stylesheets[all][] = system.messages.css
+stylesheets[all][] = system.menus.css
+;stylesheets[all][] = system.theme.css
+
+regions[sidebar] = Sidebar
+regions[main_navigation] = Main navigation
+regions[language_switcher] = Language switcher
+regions[subtitle] = Sub page title
+regions[slider] = Slider
+regions[highlighted] = Highlighted
+regions[content] = Content
+regions[help] = Help
+regions[page_top] = Page Top
+regions[page_bottom] = Page Bottom
+regions[footer_contact_form] = Footer contact form
+regions[footer] = Footer
+
+regions[section_services] = Section home services
+regions[section_parallax_1] = Section parallax 1
+regions[section_portfolio] = Section home portfolio
+regions[section_parallax_2] = Section home parallax 2
+regions[section_about] = Section home About
+regions[section_parallax_3] = Section parallax 3
+regions[section_blog] = Section home blog
+regions[section_clients] = Section home clients
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = comment_user_picture
+features[] = comment_user_verification
+features[] = favicon
+features[] = main_menu
+
+settings[toggle_name] = 0
+settings[toggle_slogan] = 1
+settings[toggle_node_user_picture] = 0
+settings[homepage_title] = 0
+settings[display_breadcrumb] = 0
+settings[display_frontpage_main_content] = 0
+
+settings[use_map] = 1
+settings[location_1] = 1
+settings[location_1_title] = Nederland
+settings[location_1_address] = Amsterdam, Nederland
+settings[location_1_info] = <h3>Magnetto Nederland Head Office</h3><p><b>Address:</b> Street 1234, Nederland 1234</p><p><b>Telephone:</b> +77 (123) 425 25 23</p><p><b>Fax:</b> +77 (123) 425 25 23</p><p><b>Email:</b> <a href="mailto:#">email@magnetto.com</a></p><p><b>Skype:</b> magnetto</p>
+
+settings[location_2] = 1
+settings[location_2_title] = England
+settings[location_2_address] = Baker Street, London, United Kingdom
+settings[location_2_info] = <h3>Magnetto England Head Office</h3><p><b>Address:</b> Street 1234, England 1234</p><p><b>Telephone:</b> +77 (123) 425 25 23</p><p><b>Fax:</b> +77 (123) 425 25 23</p><p><b>Email:</b> <a href="mailto:#">email@magnetto.com</a></p><p><b>Skype:</b> magnetto</p>
+
+settings[location_3] = 1
+settings[location_3_title] = Belgium
+settings[location_3_address] = Brussel, Belgium
+settings[location_3_info] = <h3>Magnetto Belgium Head Office</h3><p><b>Address:</b> Street 1234, Belgium 1234</p><p><b>Telephone:</b> +77 (123) 425 25 23</p><p><b>Fax:</b> +77 (123) 425 25 23</p><p><b>Email:</b> <a href="mailto:#">email@magnetto.com</a></p><p><b>Skype:</b> magnetto</p>
+
+settings[location_4] = 0
+settings[location_4_title] = Vietnam
+settings[location_4_address] = Danang, Vietnam
+settings[location_4_info] = <h3>Magnetto Danang Head Office</h3><p><b>Address:</b> Street 1234, Danang 1234</p><p><b>Telephone:</b> +77 (123) 425 25 23</p><p><b>Fax:</b> +77 (123) 425 25 23</p><p><b>Email:</b> <a href="mailto:#">email@magnetto.com</a></p><p><b>Skype:</b> magnetto</p>
+
+settings[social_links] = <ul class="general_social_2"><li><a href="httml://twitter.com/tabvn" class="social_1">Twitter</a></li><li><a href="http://facebook.com/TabvnGroup" class="social_2">Facebook</a></li><li><a href="#" class="social_3">Dribble</a></li><li><a href="#" class="social_4">Google Plus</a></li><li><a href="#" class="social_5">Behance</a></li><li><a href="#" class="social_6">Pinterest</a></li></ul>
+
